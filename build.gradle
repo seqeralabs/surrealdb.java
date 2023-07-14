@@ -20,6 +20,10 @@ java {
     }
 }
 
+compileJava {
+    options.release.set(11)
+}
+
 ext {
     slf4jVersion = "2.0.1"
     logbackVersion = "1.3.1"
